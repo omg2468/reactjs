@@ -1,0 +1,16 @@
+.container {
+  width: 100%;
+}
+
+.header,
+.container-button {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.box-item {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}

@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.description {
+  line-height: 22px;
+  height: 44px;
+  overflow: hidden;
+  margin: 5px;
+}
+
+.box {
+  width: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+h2 {
+  margin: 5px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-top: 1px solid black;
+}
